@@ -1,0 +1,54 @@
+* {
+  background-color: rgb(192, 192, 192);
+  align-self: center;
+  font: 1em sans-serif;
+}
+
+.centrado {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+h1 {
+  font-size: larger;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+}
+
+#btn-update {
+  text-decoration: none;
+  text-align: center;
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+#btn-delete {
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+#btn-create {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(42, 202, 82);
+    border: none;
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+  }
