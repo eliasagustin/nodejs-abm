@@ -8,22 +8,15 @@
         <title>Document</title>
     </head>
     <body>
+
         <div class="centrado">
-            <table>
-                <tr>
-                    <td>
-                        <h1>Modificar Usario</h1>
-                    </td>
-                </tr>
-
-                <form action="/users/delete/<%= user[0]['id'] %>" method="post">
-                    <h2>Desea eliminar al usuario
-                        <%= user[0]['name'] %>?</h2>
-                    <a id="btn-update" href="/users/all">Cancelar</a>
-                    <input id="btn-delete" type="submit" value="Eliminar">
-
-                </form>
-            </table>
+            <h1>Eliminar Usario</h1>
+            <form action="/users/delete/<%= user[0]['id'] %>" method="post">
+                <h2>Desea eliminar al usuario
+                    <%= user[0]['name'] %>?</h2>
+                <a id="btn-update" href="/users/all">Cancelar</a>
+                <input id="btn-delete" type="submit" value="Eliminar">
+            </form>
         </div>
     </body>
 </html>
